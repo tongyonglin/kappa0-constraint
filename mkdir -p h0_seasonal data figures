@@ -1,0 +1,14 @@
+# 克隆仓库到本地
+git clone https://github.com/tongyonglin/kappa0-constraint.git
+cd kappa0-constraint
+
+# 创建文件夹
+mkdir -p h0_seasonal data figures
+
+# 添加文件到对应文件夹
+# ...（复制或创建文件）
+
+# 提交并推送
+git add .
+git commit -m "Add folder structure"
+git push
